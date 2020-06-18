@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-html{
+html, body {
 	height: 100%;
 	margin: 0%;
 	font-size: 16px;
@@ -12,6 +12,7 @@ html{
 	font-weight: 400;
 	line-height: 1.8cm;
 	color: gray;
+	background-color: gray;
 }
 
 h1, h2, h3{
@@ -19,6 +20,14 @@ h1, h2, h3{
 	text-align: left;
 	margin: auto;
 	
+}
+.nav-bar{
+	display: inline-flex;
+	position: absolute;
+}
+
+.end{
+	display: block;
 }
 
 .dar{
