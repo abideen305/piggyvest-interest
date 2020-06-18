@@ -4,14 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peggyvest</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
 <header>
 
-    <h1>Welcome to Peggyvest Calcuator</h1>
-    <nav></nav>
+    <img src="piggyvestlogo.svg" alt="" />
+    
 </header>
+
+<main>
+    <h1>Rachel Peters,</h1>
+    <p>Calculate your savings interest</p>
+
+    <form>
+        <div class="firstinput">
+        <label for="deposit-type">Type of Deposit</label>
+        <select>
+            <option id="deposit-type" class="drp" value="piggybank">Piggybank</option>
+            <option value="safelock">SafeLock</option>
+            <option value="target">Target</option>
+            <option value="flex">Flex</option>
+            <option value="flexdollar">Flex Dollar</option>
+            <option value="investify">investify</option>
+        </select>
+    </div>
+    <div class="input">
+        <label for="deposit-amount">Amount of Deposit</label>
+        <input id="deposit-amount" type="number" name="deposit-amount" value="" placeholder="$1000" >
+    </div>
+    <div class="input">
+        <label for="monthly-refil">Monthly Refill</label>
+        <input id="monthly-refil" type="number" name="monthly-refil" value="" placeholder="$500" >
+    </div>
+        <div class="input">
+        <label for="duration-years">Duration - Years</label>
+        <input id="duration-years" type="number" name="duration-years" value="" placeholder="1" >
+    </div>
+        <div class="input">
+        <label for="interest">Interest </label>
+        <input id="interest" type="text" name="interest" value="" placeholder="10%" >
+    </div>
+
+    <div class="input">
+        <label for="start-date">Finish Date (DD/MM/YYYY) </label>
+        <input id="start-date" type="date" name="start-date" value="" placeholder="Select start date" >
+    </div>
+
+    <div class="input">
+        <label for="finish-date">Finish Date (DD/MM/YYYY) </label>
+        <input id="finish-date" type="date" name="finish-date" value="" placeholder="Select finish date" >
+    </div> <br>
+    <input type="submit" value="Calculate">
+
+    </form>
+</main>
+
+<!-- <div>
+    <div class="nav-bar">
+        <a href="#"> <i class="fa fa-menu"></i> <img src="piggyvest-logo.svg" alt=""> </a>
+        <a href="#"><i class="fa fa-home"></i> Home</a>
+        <a href="#"><i class="fa fa-home"></i> Savings</a>
+        <a href="#"><i class="fa fa-home"></i> Invest</a>
+        <a href="#"><i class="fa fa-user"></i> Account</a>
+
+        <a class="logout" href="#" ><i class="fa fa-logout">Log Out</i></a>
+    </div>
+</div> -->
 
 
 <section>

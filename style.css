@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 25px 100px 100px;
+}
+
+header {
+    margin: 2% auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+ header img {
+    text-align: right;
+    
+    clear: both;
+}
+
+main h1 {
+    margin-bottom: 10px;
+}
+
+main p {
+    color: #083e9e;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+}
+
+form {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 2% auto;
+    /* padding: 5%; */
+    border-radius: 25px 25px 25px 0px;
+}
+
+form .firstinput {
+    width: 60%;
+}
+
+.input {
+    margin: 25px 25px 25px 0px;
+    width: 45%; 
+    /* display: inline-block; */
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin: 0;
+    color: #4a5568;
+  font-size: 12px;
+  font-weight: 600;
+
+
+}
+
+
+
+
+    input, select {
+        width: 100%;
+        padding: 15px 10px;
+        margin: 5px 0 20px;
+        display: inline-block;
+        background-color: #edf2f7;
+        /* border: 1px solid #ccc; */
+        border: none;
+        border-radius: 5px;
+        outline: none;
+        box-sizing: border-box;
+
+}
+
+input[placeholder] {
+    font-size: 15px;
+    color:#4a5568;
+}
+
+input[type=submit] {
+    width: auto;
+    display: inline-block;
+    background-color: #083e9e;
+    color: white;
+    font-weight: 900;
+    padding: 20px 50px;
+    margin: 5px 0 0;
+    border-radius:  50px;
+}
+
+input[type=submit]:hover {
+    background-color: #022157d8;
+}
+
+@media screen and (max-width: 850px) {
+    body {
+        padding: 25px 50px;
+    }
+
+    .input {
+        margin: 10px 10px 10px 0px;
+    }
+}
